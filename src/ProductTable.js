@@ -10,29 +10,25 @@ function ProductTable(props) {
             <table style={{ height: '100%', width: '600px'}} >
             <tr>
 
-<th style={{ color: 'white' }}>Name</th>
+<th style={{ color: 'Red' }}>Name</th>
+<th style={{ color: 'red' }}>Price</th>
+<th style={{ color: 'red' }}>Catregory</th>
+</tr>
 {props.elements.map((el, i) => (
-    <td key={i} style={{ color: 'white' }} >
+    <tr>
+    <td key={i} style={{ color: 'white',textAlign:'center' }} >
         {el.name}
     </td>
-))}
-</tr>
-<tr>
-<th style={{ color: 'white' }}>Price</th>
-{props.elements.map((el, i) => (
-    <td key={i} style={{ color: 'white' }} >
+    <td key={i} style={{ color: 'white' ,textAlign:'center'}} >
         {el.price}
     </td>
-))}
-</tr>
-<tr>
-<th style={{ color: 'white' }}>Catregory</th>
-{props.elements.map((el, i) => (
-    <td key={i} style={{ color: 'white' }}  >
+    <td key={i} style={{ color: 'white',textAlign:'center' }} >
         {el.category}
     </td>
+    </tr>
+
 ))}
-</tr>
+
 
 
 
