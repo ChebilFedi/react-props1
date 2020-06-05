@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './App.css';
+import './ProductTable.css';
 import PropTypes, { object } from 'prop-types';
 
 function ProductTable(props) {
