@@ -9,7 +9,7 @@
     "prop-types": "^15.7.2",
     "react": "^0.14.9",
     "react-dom": "^0.14.9",
-    "react-scripts": "3.4.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
